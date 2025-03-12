@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css">
+    </link>
+</head>
+
+<body>
+    {*/this is header\*}
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#">Glotr</a>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Искать на Glotr">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+                <nav class="nav-icons">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    {*/this is body\*}
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="#">Главная</a> &gt;
+            <a href="#">Товары</a> &gt;
+            <a href="#">Красота и здоровье</a>
+        </div>
+
+        <div class="product-list">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000"
+                        alt="Apple MacBook Air">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000"
+                        alt="MacBook Air thumbnail 1" class="active">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-gold-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000"
+                        alt="MacBook Air thumbnail 2">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-silver-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000"
+                        alt="MacBook Air thumbnail 3">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h1 class="product-title">Apple Macbook air, M1, 512 SSD gb, 32gb RAM</h1>
+                <div class="product-meta">
+                    <span class="product-code">Код 32453</span>
+                    <span class="product-availability out-of-stock">Нет в наличии</span>
+                </div>
+                <div class="product-price">
+                    <span class="price">12 850 000 сум/шт</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn-primary">Уточнить наличие</button>
+                    <button class="btn-secondary"><i class="fas fa-heart"></i></button>
+                    <button class="btn-secondary"><i class="fas fa-share-alt"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-tabs">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="description">Описание</button>
+                <button class="tab-btn" data-tab="specs">Характеристика</button>
+                <button class="tab-btn" data-tab="seller">Продавец</button>
+                <button class="tab-btn" data-tab="reviews">Отзывы</button>
+            </div>
+
+            <div class="tab-content active" id="description">
+                <p>Оптический привод С новой силой. С появлением чипа Apple M1 наш самый тонкий и лёгкий ноутбук
+                    полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический до 5
+                    раз. А благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 9
+                    раз. Новый Мас. Book Air работает без подзарядки дольше, чем предыдущие модели. Оптический привод С
+                    новой силой. С появлением чипа Apple M1 наш самый тонкий и лёгкий ноутбук
+                    полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический до 5
+                    раз. А благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 9
+                    раз. Новый Мас. Book Air работает без подзарядки дольше, чем предыдущие модели.</p>
+                <button class="btn-text">Показать все</button>
+            </div>
+
+            <div class="tab-content" id="specs">
+                <table class="specs-table">
+                    <tr>
+                        <td>Код товара</td>
+                        <td>MGN93RU/A</td>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Apple</td>
+                    </tr>
+                    <tr>
+                        <td>Разрешение экрана</td>
+                        <td>2560x1600</td>
+                    </tr>
+                    <tr>
+                        <td>Количество ядер процессора</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Оптический привод</td>
+                        <td>Отсутствует</td>
+                    </tr>
+                </table>
+                <button class="btn-text">Показать все</button>
+            </div>
+
+            <div class="tab-content" id="seller">
+                <div class="seller-info">
+                    <div class="seller-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+                            alt="Amazon logo">
+                    </div>
+                    <div class="seller-details">
+                        <h3>Amazon</h3>
+                        <p>г. Ташкент, Узбекистан</p>
+                        <p>Сегодня работает до 18:00 <a href="#">Весь график</a></p>
+                        <p>+998 99 <a href="#">показать номер</a></p>
+                        <p><a href="https://amazon.com" target="_blank">amazon.com</a></p>
+                        <div class="seller-actions">
+                            <a href="#" class="btn-outline">Все товары продавца</a>
+                            <a href="#" class="btn-outline">Заказать звонок</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="reviews">
+                <p>Нет отзывов</p>
+                <button class="btn-primary">Оставить отзыв</button>
+            </div>
+        </div>
+
+        <div class="payment-delivery">
+            <div class="payment-methods">
+                <h3>Способы оплаты</h3>
+                <ul>
+                    <li>Наличными</li>
+                    <li>Перечислением</li>
+                    <li>Терминал UzCard</li>
+                    <li>Терминал НИМО</li>
+                    <li>POS терминал</li>
+                    <li>Payme</li>
+                </ul>
+                <a href="#" class="btn-text">Подробно</a>
+            </div>
+            <div class="delivery-methods">
+                <h3>Способы доставки</h3>
+                <ul>
+                    <li>Доставка куръером</li>
+                    <li>Доставка почтой</li>
+                </ul>
+                <a href="#" class="btn-text">Подробно</a>
+            </div>
+        </div>
+
+        <section class="similar-products">
+            <h2>Похожие товары продавца</h2>
+            <div class="products-grid">
+
+            </div>
+        </section>
+
+        <section class="recommended-products">
+            <h2>Рекомендуем</h2>
+            <div class="products-grid">
+            </div>
+        </section>
+
+        <section class="search-categories">
+            <h3>У нас ищут</h3>
+            <div class="categories-list">
+                <a href="#">Камера</a>
+                <a href="#">Куртки женские</a>
+                <a href="#">Радиаторы и обогреватели</a>
+                <a href="#">Автозапчасти</a>
+                <a href="#">Спортивные костюм</a>
+            </div>
+        </section>
+    </div>
+
+
+    {*/this is footer\*}
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>О компании</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Покупателям</h4>
+                    <ul>
+                        <li><a href="#">Как заказать</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Продавцам</h4>
+                    <ul>
+                        <li><a href="#">Как продавать на Glotr</a></li>
+                        <li><a href="#">Правила</a></li>
+                        <li><a href="#">Тарифы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Мы в соцсетях</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Glotr. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
